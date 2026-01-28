@@ -2,7 +2,7 @@ class Humanity:
     def __init__(self, name, age):
         self._name = name
         self._age = age
-
+        self.__nom = 28 
     def work(self):
         print("Людина працює")
 
