@@ -13,10 +13,9 @@ class Programmer(Humanity):
         self._language = language
 
     def work(self):
-        print(f"Програміст пише код на {self._language}")
+        print(f"{self._language}")
 
 
-# головна частина програми
 human = Humanity("Іван", 20)
 programmer = Programmer("Марія", 22, "Python")
 
